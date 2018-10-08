@@ -1,3 +1,14 @@
+Log file
+
+
+edit /lf-k8s-hlf-webinar/helm_values/ca-pg_values.yaml  remove persistance type
+
+helm  install stable/postgresql -n ca-pg --namespace agrichain  -f ./helm_values/ca-pg_values.yaml
+
+
+
+
+
 Table of Contents
 =================
 
